@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Virtual Environment
+venv/
+env/
+
+# OS & Logs
+.DS_Store
+*.log
+
+# SQLite & Other DBs
+*.sqlite3
+*.db
+
+# Frontend Builds (if any)
+dist/
+build/
+
+# IDE & Editor Configs
+.vscode/
+.idea/
