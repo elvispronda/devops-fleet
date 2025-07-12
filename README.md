@@ -197,7 +197,7 @@ docker-compose up --build
 **Confidential - Central Bank Use Only**  
 Redistribution, duplication, or derivative work is strictly prohibited unless formally approved by the Central Bank legal office.
 
----
+----
 
 ## 🤝 Future Roadmap
 
