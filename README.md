@@ -142,8 +142,8 @@ devops-fleet/
 
 ```bash
 # Clone the project
-git clone https://github.com/ndayishimiyeelvis/my_web_app.git
-cd my_web_app
+git clone https://github.com/ndayishimiyeelvis/devops-fleet.git
+cd devops-fleet
 
 # Launch local containers
 docker-compose up --build
@@ -193,13 +193,13 @@ docker-compose up --build
 Maintainer: Ndayishimiye Elvis
 DevOps | Full Stack | Infrastructure-as-Code | Secure Cloud Architect
 
-    .🔗 LinkedIn
+    .🔗 https://www.linkedin.com/in/elvispronda
 
-    .🧑‍💻 GitHub
+    .🧑‍💻 https://github.com/elvispronda/pronda
 
-    .🐦 Twitter/X
+    .🐦 https://x.com/@elvispronda
 
-    .🌍 Personal Portfolio
+    .🌍 https://www.pronda.com
 
     .📸 Instagram
 
