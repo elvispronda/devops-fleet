@@ -7,10 +7,8 @@
 [![Kubernetes](https://img.shields.io/badge/deployed-K8s-informational)]()
 [![License: Internal](https://img.shields.io/badge/license-Central%20Bank%20Internal-yellow)]()
 
+---
 
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
 ## 🧭 Executive Summary
 
 This project powers a **centralized fleet management ecosystem** for a national central bank. It provides full lifecycle visibility and control of official vehicle resources across:
@@ -23,11 +21,11 @@ This project powers a **centralized fleet management ecosystem** for a national 
 
 It is **designed for high-availability**, **secured via enterprise DevSecOps practices**, and **monitored at scale** with full CI/CD pipelines for code quality, security, and operational integrity.
 
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
+---
+
 ## 🏗️ Architecture Overview
 
-![System Diagram](docs/architecture_diagram.png) <!-- You can replace this with your actual diagram -->
+![System Diagram](docs/architecture_diagram.png)
 
 | Layer               | Stack                                              |
 |---------------------|----------------------------------------------------|
@@ -35,30 +33,28 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 | **Backend API**     | FastAPI, Pydantic, SQLAlchemy, JWT Auth            |
 | **Database**        | PostgreSQL (managed RDS)                           |
 | **CI/CD**           | Jenkins + GitHub + Docker + Kubernetes + Helm      |
-| **Infrastructure**. | Terraform (AWS), Ansible (configuration)           |
+| **Infrastructure**  | Terraform (AWS), Ansible (configuration)           |
 | **Containerization**| Docker, Docker Compose                             |
 | **Orchestration**   | EKS (AWS Kubernetes) + Helm + Nginx/Traefik        |
 | **Security**        | SonarQube, Trivy, HTTPS, SealedSecrets             |
 | **Monitoring**      | Prometheus, Grafana, Loki, AlertManager            |
 
+---
 
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
 ## 🔐 Subdomain Map (with SSL)
 
 | Subdomain                       | Service                      |
 |---------------------------------|------------------------------|
 | `app.fleet.centralbank.gov`     | Web frontend UI              |
-| `api.fleet.centralbank.gov`.    | REST API backend (FastAPI)   |
+| `api.fleet.centralbank.gov`     | REST API backend (FastAPI)   |
 | `jenkins.fleet.centralbank.gov` | Jenkins CI/CD                |
 | `monitor.fleet.centralbank.gov` | Prometheus + Grafana         |
 | `sonar.fleet.centralbank.gov`   | SonarQube (code quality)     |
 
 > All traffic is routed through **Traefik** Ingress with **HTTPS (Let's Encrypt)** SSL termination. Services are segmented by namespace and access roles.
 
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
+---
+
 ## ⚙️ DevOps Automation Highlights
 
 ✅ **Push-to-Deploy** via GitHub/Jenkins  
@@ -70,9 +66,8 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 ✅ Secrets managed securely via **AWS Secrets Manager + SealedSecrets**  
 ✅ Notification support via **SMTP (Email alerts)**
 
+---
 
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
 ## ✨ Core Features
 
 ### Vehicle Management
@@ -103,8 +98,8 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 - Finance (Expense approval)
 - Driver (View trips only)
 
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
+---
+
 ## 📦 Project Structure
 
 ```bash
@@ -133,11 +128,8 @@ devops-fleet/
 └── README.md
 ```
 
+---
 
-
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
 ## 🚀 Quick Start (Local Dev)
 
 ```bash
@@ -150,94 +142,78 @@ docker-compose up --build
 
 # Run setup script for DevOps
 ./scripts/setup.sh
+```
+
+---
+
+## 🔐 Security & Compliance
+
+- 🔎 Static Code Analysis with SonarQube  
+- 🛡️ Container Scanning with Trivy (OWASP compliance)  
+- 🔐 HTTPS SSL encryption with Let's Encrypt + Traefik  
+- 🔑 Secrets encrypted with Ansible Vault and SealedSecrets  
+- 🔒 RBAC policies in Kubernetes  
+- 📧 Email notifications for suspicious activity or failure events  
+
+---
+
+## 📊 Monitoring & Alerting
+
+- 📈 Real-time dashboards (Grafana)  
+- 📊 Custom Prometheus metrics  
+- 🚨 Alertmanager for service incidents + email triggers  
+- 💾 Uptime, memory, CPU, and DB query monitoring  
+
+---
+
+## 📧 Contact & Social Links
+
+**Maintainer:** [Ndayishimiye Elvis](https://www.linkedin.com/in/elvispronda)  
+**Title:** DevOps Engineer · Full Stack Developer · Cloud Architect · IaC Specialist
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvispronda)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/elvispronda/pronda)
+[![X](https://img.shields.io/badge/X(Twitter)-000000?style=flat&logo=twitter&logoColor=white)](https://x.com/elvispronda)
+[![Website](https://img.shields.io/badge/Website-pronda.com-222222?style=flat&logo=google-chrome&logoColor=white)](https://www.pronda.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/elvispronda)
+
+### 📲 Scan to Connect
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/elvispronda)
+
+💼 *Open to consulting, technical partnerships, DevOps automation projects, and open-source contributions.*
+
+---
+
+## 📄 License
+
+**Confidential - Central Bank Use Only**  
+Redistribution, duplication, or derivative work is strictly prohibited unless formally approved by the Central Bank legal office.
+
+---
+
+## 🤝 Future Roadmap
+
+- 📱 Mobile app version for drivers  
+- 📍 GPS tracking integration  
+- 📄 PDF export of reports/invoices  
+- 💰 Budget planning & forecasting AI  
+- 🎙️ Voice command for trip dispatch  
 
 
+---
 
+## 📎 Downloadable Assets
 
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-🔐 Security & Compliance
+✅ Your assets are ready! Download them below:
 
-   . 🔎 Static Code Analysis with SonarQube
+### 🗺️ System Architecture Diagram (placeholder)  
+📥 [Download architecture_diagram.png](docs/architecture_diagram.png)
 
-   .🛡️ Container Scanning with Trivy (OWASP compliance)
+### 📱 LinkedIn QR Code  
+📥 [Download linkedin_qr.png](docs/linkedin_qr.png)
 
-   . 🔐 HTTPS SSL encryption with Let's Encrypt + Traefik
+Or view them directly:
 
-   . 🔑 Secrets encrypted with Ansible Vault and SealedSecrets
+![Architecture Diagram](docs/architecture_diagram.png)
 
-   . 🔒 RBAC policies in Kubernetes
-
-   . 📧 Email notifications for suspicious activity or failure events
-
-
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-📊 Monitoring & Alerting
-
-    .Real-time dashboards (Grafana)
-
-    .Custom Prometheus metrics
-
-    .Uptime, memory, CPU, and DB query response monitoring
-
-    .Alertmanager for service incidents + email triggers
-
-
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-📧 Contact & Social Links
-
-Maintainer: Ndayishimiye Elvis
-DevOps | Full Stack | Infrastructure-as-Code | Secure Cloud Architect
-
-    .🔗 https://www.linkedin.com/in/elvispronda
-
-    .🧑‍💻 https://github.com/elvispronda/pronda
-
-    .🐦 https://x.com/@elvispronda
-
-    .🌍 https://www.pronda.com
-
-    .📸 Instagram
-
-Contact me for consulting, partnerships, or to contribute.
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-📄 License
-
-    Confidential - Central Bank Use Only
-    Redistribution, duplication, or derivative work is strictly prohibited unless formally approved by the Central Bank legal office.
-
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-🤝 Future Roadmap
-
-    .Mobile app version for drivers
-
-    .GPS tracking integration
-
-    .PDF export of reports/invoices
-
-    .Budget planning & forecasting AI
-
-    .Voice command for trip dispatch
-
-
-
-
-------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------
-
-## ✅ What's Next
-
-Would you like me to:
-- Add an **architecture diagram template** (`architecture_diagram.png`)?
-- Populate the actual `main.py`, `docker-compose.yml`, and `Jenkinsfile`?
-- Set up a `CI badge` using GitHub Actions as a fallback?
-
-Let me know how far you want to go — I’m ready to make this **enterprise-ready and demoable.**
+![LinkedIn QR Code](docs/linkedin_qr.png)
