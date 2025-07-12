@@ -220,8 +220,4 @@ Redistribution, duplication, or derivative work is strictly prohibited unless fo
 ### 📱 LinkedIn QR Code  
 📥 [Download linkedin_qr.png](devops-fleet/docs/linkedin_qr.png)
 
-Or view them directly:
 
-![Architecture Diagram](devops-fleet/docs/architecture_diagram.png)
-
-![LinkedIn QR Code](devops-fleet/docs/linkedin_qr.png)
