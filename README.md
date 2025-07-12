@@ -108,15 +108,24 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 ## 📦 Project Structure
 
 my_web_app/
-├── backend/ # FastAPI backend service
-├── frontend/ # HTML/JS/CSS static UI
-├── ci-cd/ # Jenkins, Trivy, Sonar
-├── infra/ # Terraform, Ansible, secrets
-├── docker/ # Dockerfiles, Traefik, Compose
-├── k8s/ # Helm charts, ingress, namespaces
-├── monitoring/ # Prometheus, Grafana, Loki
-├── notifications/ # SMTP email alerting
-└── scripts/ # Full automation scripts
+├── backend/ 
+    # FastAPI backend service
+├── frontend/
+    # HTML/JS/CSS static UI
+├── ci-cd/ 
+    # Jenkins, Trivy, Sonar
+├── infra/
+    # Terraform, Ansible, secrets
+├── docker/
+    # Dockerfiles, Traefik, Compose
+├── k8s/ 
+    # Helm charts, ingress, namespaces
+├── monitoring/
+    # Prometheus, Grafana, Loki
+├── notifications/
+    # SMTP email alerting
+└── scripts/ 
+    # Full automation scripts
 
 
 
