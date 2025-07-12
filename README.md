@@ -107,25 +107,31 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 ------------------------------------------------------------------------------------------------------------
 ## 📦 Project Structure
 
-my_web_app/
-├── backend/ 
-    # FastAPI backend service
-├── frontend/
-    # HTML/JS/CSS static UI
-├── ci-cd/ 
-    # Jenkins, Trivy, Sonar
-├── infra/
-    # Terraform, Ansible, secrets
-├── docker/
-    # Dockerfiles, Traefik, Compose
-├── k8s/ 
-    # Helm charts, ingress, namespaces
-├── monitoring/
-    # Prometheus, Grafana, Loki
-├── notifications/
-    # SMTP email alerting
-└── scripts/ 
-    # Full automation scripts
+```bash
+devops-fleet/
+├── backend/           # FastAPI backend service
+│   ├── app/           # Application modules
+│   └── main.py        # Entry point
+├── frontend/          # HTML, CSS, JS static UI
+│   └── index.html     # Web UI
+├── ci-cd/             # Jenkinsfile, SonarQube, Trivy scans
+│   └── Jenkinsfile
+├── infra/             # Terraform (IaC), Ansible (provisioning)
+│   ├── terraform/     # Infrastructure modules
+│   └── ansible/       # Server setup playbooks
+├── docker/            # Dockerfiles, Traefik config
+│   └── traefik/
+├── k8s/               # Kubernetes manifests, Helm charts
+│   ├── ingress/
+│   └── deployments/
+├── monitoring/        # Prometheus, Grafana, Loki setup
+├── notifications/     # Email alerts, SMTP config
+├── scripts/           # Full automation CLI scripts
+│   └── git_push_all.sh
+├── .env.example       # Example environment config
+├── .gitignore
+└── README.md
+```
 
 
 
