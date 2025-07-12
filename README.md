@@ -172,27 +172,14 @@ docker-compose up --build
 **Title:** DevOps Engineer · Full Stack Developer · Cloud Architect · IaC Specialist
 
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/elvispronda" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/30/0077B5/linkedin.png" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/elvispronda/pronda" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/30/181717/github.png" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://x.com/elvispronda" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/30/000000/twitterx.png" alt="X / Twitter" />
-  </a>
-  &nbsp;
-  <a href="https://www.pronda.com" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/30/000000/domain.png" alt="Website" />
-  </a>
-  &nbsp;
-  <a href="https://instagram.com/elvispronda" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/30/E4405F/instagram-new.png" alt="Instagram" />
-  </a>
-</p>
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvispronda)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elvispronda/pronda)
+[![X](https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/elvispronda)
+[![Website](https://img.shields.io/badge/-Website-24292e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.pronda.com)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elvispronda)
+
+
 
 
 ### 📲 Scan to Connect
