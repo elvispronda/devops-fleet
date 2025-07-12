@@ -217,4 +217,11 @@ Redistribution, duplication, or derivative work is strictly prohibited unless fo
 ### 🗺️ System Architecture Diagram  
 📥 [Download architecture_diagram.png](devops-fleet/docs/architecture_diagram.png)
 
+### 📱 LinkedIn QR Code  
+📥 [Download linkedin_qr.png](docs/linkedin_qr.png)
 
+Or view them directly:
+
+![Architecture Diagram](docs/architecture_diagram.png)
+
+![LinkedIn QR Code](docs/linkedin_qr.png)
