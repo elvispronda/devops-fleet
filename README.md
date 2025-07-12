@@ -43,13 +43,13 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 
 ## 🔐 Subdomain Map (with SSL)
 
-| Subdomain                       | Service                      |
-|---------------------------------|------------------------------|
-| `app.fleet.centralbank.gov`     | Web frontend UI              |
-| `api.fleet.centralbank.gov`     | REST API backend (FastAPI)   |
-| `jenkins.fleet.centralbank.gov` | Jenkins CI/CD                |
-| `monitor.fleet.centralbank.gov` | Prometheus + Grafana         |
-| `sonar.fleet.centralbank.gov`   | SonarQube (code quality)     |
+| Subdomain                       | Service                 |
+|---------------------------------|-------------------------|
+| `app.fleet.pronda.com`     | Web frontend UI              |
+| `api.fleet.pronda.com`     | REST API backend (FastAPI)   |
+| `jenkins.fleet.pronda.com` | Jenkins CI/CD                |
+| `monitor.fleet.pronda.com` | Prometheus + Grafana         |
+| `sonar.fleet.pronda.com`   | SonarQube (code quality)     |
 
 > All traffic is routed through **Traefik** Ingress with **HTTPS (Let's Encrypt)** SSL termination. Services are segmented by namespace and access roles.
 
@@ -137,7 +137,7 @@ devops-fleet/
 
 ```bash
 # Clone the project
-git clone https://github.com/ndayishimiyeelvis/devops-fleet.git
+git clone https://github.com/elvispronda/devops-fleet.git
 cd devops-fleet
 
 # Launch local containers
@@ -218,10 +218,10 @@ Redistribution, duplication, or derivative work is strictly prohibited unless fo
 📥 [Download architecture_diagram.png](devops-fleet/docs/architecture_diagram.png)
 
 ### 📱 LinkedIn QR Code  
-📥 [Download linkedin_qr.png](docs/linkedin_qr.png)
+📥 [Download linkedin_qr.png](devops-fleet/docs/linkedin_qr.png)
 
 Or view them directly:
 
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](devops-fleet/docs/architecture_diagram.png)
 
-![LinkedIn QR Code](docs/linkedin_qr.png)
+![LinkedIn QR Code](devops-fleet/docs/linkedin_qr.png)
