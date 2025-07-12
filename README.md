@@ -171,11 +171,29 @@ docker-compose up --build
 **Maintainer:** [Ndayishimiye Elvis](https://www.linkedin.com/in/elvispronda)  
 **Title:** DevOps Engineer · Full Stack Developer · Cloud Architect · IaC Specialist
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvispronda)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/elvispronda/pronda)
-[![X](https://img.shields.io/badge/X(Twitter)-000000?style=flat&logo=twitter&logoColor=white)](https://x.com/elvispronda)
-[![Website](https://img.shields.io/badge/Website-pronda.com-222222?style=flat&logo=google-chrome&logoColor=white)](https://www.pronda.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/elvispronda)
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/elvispronda" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/0077B5/linkedin.png" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/elvispronda/pronda" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/181717/github.png" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://x.com/elvispronda" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/000000/twitterx.png" alt="X / Twitter" />
+  </a>
+  &nbsp;
+  <a href="https://www.pronda.com" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/000000/domain.png" alt="Website" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/elvispronda" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/30/E4405F/instagram-new.png" alt="Instagram" />
+  </a>
+</p>
+
 
 ### 📲 Scan to Connect
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/elvispronda)
