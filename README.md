@@ -123,9 +123,12 @@ devops-fleet/
 ├── notifications/     # Email alerts, SMTP config
 ├── scripts/           # Full automation CLI scripts
 │   └── git_push_all.sh
+├── docs/              # Documentation, architecture diagram, QR codes
 ├── .env.example       # Example environment config
 ├── .gitignore
-└── README.md
+├── README.md
+└── SOCIALS.md         # Social links with badges
+
 ```
 
 ---
