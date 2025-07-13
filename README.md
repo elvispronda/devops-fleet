@@ -137,7 +137,7 @@ devops-fleet/
 
 ```bash
 # Clone the project
-git clone https://github.com/elvispronda/devops-fleet.git
+git clone https://github.com/elvisquant/devops-fleet.git
 cd devops-fleet
 
 # Launch local containers
@@ -171,22 +171,22 @@ docker-compose up --build
 
 ## 📧 Contact & Social Links
 
-**Maintainer:** [Ndayishimiye Elvis](https://www.linkedin.com/in/elvispronda)  
+**Maintainer:** [Ndayishimiye Elvis](https://www.linkedin.com/in/elvisquant)  
 **Title:** DevOps Engineer · Full Stack Developer · Cloud Architect · IaC Specialist
 
 
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvispronda)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elvispronda/elvispronda)
-[![X](https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/@elvispronda)
-[![Website](https://img.shields.io/badge/-Website-24292e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pronda.com)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elvispronda)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elvisquant)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elvispronda/elvisquant)
+[![X](https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/@elvisquant)
+[![Website](https://img.shields.io/badge/-Website-24292e?style=for-the-badge&logo=google-chrome&logoColor=white)](https://quant.dev)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/elvisquant)
 
 
 
 
 ### 📲 Scan to Connect
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/elvispronda)
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.linkedin.com/in/elvisquant)
 
 💼 *Open to consulting, technical partnerships, DevOps automation projects, and open-source contributions.*
 
