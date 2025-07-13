@@ -1,0 +1,29 @@
+# backend-hpa.yaml - The rulebook for application-level scaling.
+
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: backend-hpa
+  namespace: fleet-production
+spec:
+  # This HPA targets our backend deployment.
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: backend-deployment
+  
+  # --- RULES FOR SCALING DOWN ---
+  minReplicas: 2   # Never scale below 2 pods to maintain high availability.
+  
+  # --- RULES FOR SCALING UP ---
+  maxReplicas: 20  # Don't scale beyond 20 pods to control costs.
+  
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        # The trigger: if average CPU across all pods goes above 75%, create new pods.
+        # Conversely, if it drops far below 75%, the HPA will terminate pods until it reaches minReplicas.
+        type: Utilization
+        averageUtilization: 75

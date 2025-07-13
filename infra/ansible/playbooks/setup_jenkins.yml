@@ -1,0 +1,38 @@
+# jenkins_setup.yml - A comprehensive playbook to configure our Jenkins Controller.
+- hosts: jenkins
+  become: true # Execute all commands with sudo for installation.
+  tasks:
+    - name: Update apt cache and install base dependencies
+      apt:
+        name: ['apt-transport-https', 'ca-certificates', 'curl', 'gnupg', 'lsb-release', 'python3-pip']
+        state: present
+        update_cache: yes
+
+    - name: Install OpenJDK 11 (required for Jenkins)
+      apt: name=openjdk-11-jdk state=present
+
+    - name: Add Jenkins repository and install Jenkins
+      # ... (standard Jenkins installation steps using apt key and repo) ...
+
+    - name: Install Docker Engine
+      # ... (standard Docker installation steps using apt key and repo) ...
+
+    - name: Add 'jenkins' user to the 'docker' group
+      user:
+        name: jenkins
+        groups: docker
+        append: yes
+      notify: Restart Jenkins
+
+    - name: Install Trivy for container vulnerability scanning
+      # ... (steps to add Trivy repo and install via apt) ...
+
+    - name: Install kubectl for interacting with the EKS cluster
+      # ... (steps to download the kubectl binary and move it to /usr/local/bin) ...
+
+    - name: Install Helm for managing Kubernetes applications
+      # ... (steps to download and run the get_helm.sh script) ...
+
+  handlers:
+    - name: Restart Jenkins
+      service: name=jenkins state=restarted
