@@ -43,13 +43,13 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 
 ## 🔐 Subdomain Map (with SSL)
 
-| Subdomain                       | Service                 |
-|---------------------------------|-------------------------|
-| `app.fleet.pronda.com`     | Web frontend UI              |
-| `api.fleet.pronda.com`     | REST API backend (FastAPI)   |
-| `jenkins.fleet.pronda.com` | Jenkins CI/CD                |
-| `monitor.fleet.pronda.com` | Prometheus + Grafana         |
-| `sonar.fleet.pronda.com`   | SonarQube (code quality)     |
+| Subdomain                      | Service                      |
+|--------------------------------|------------------------------|
+| `app.fleet.elvisquant.com`     | Web frontend UI              |
+| `api.fleet.elvisquant.com`     | REST API backend (FastAPI)   |
+| `jenkins.fleet.elvisquant.com` | Jenkins CI/CD                |
+| `monitor.fleet.elvisquant.com` | Prometheus + Grafana         |
+| `sonar.fleet.elvisquant.com`   | SonarQube (code quality)     |
 
 > All traffic is routed through **Traefik** Ingress with **HTTPS (Let's Encrypt)** SSL termination. Services are segmented by namespace and access roles.
 
@@ -60,7 +60,7 @@ It is **designed for high-availability**, **secured via enterprise DevSecOps pra
 ✅ **Push-to-Deploy** via GitHub/Jenkins  
 ✅ Docker images scanned using **Trivy**  
 ✅ Code quality enforced by **SonarQube**  
-✅ Infrastructure-as-Code with **Terraform** (modular stacks)  
+✅ Infrastructure-as-Code with **Terraform**   
 ✅ Server setup with **Ansible**  
 ✅ Monitored using **Prometheus + Grafana + Loki**  
 ✅ Secrets managed securely via **AWS Secrets Manager + SealedSecrets**  
